@@ -1,0 +1,68 @@
+body { /* tampilan umum web */
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.title { /* title utama */
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.subtitle1 { /* subjudul */
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+.subtitle2 { /* paragraf penjelasan */
+    text-align: left;
+    font-size: 1.2rem;
+    color: rgb(147, 207, 154);
+    margin-bottom: 30px;
+}
+
+.content-table { /* style umum untuk tabel */
+    width: 100%;
+    background-color: rgb(117, 255, 156);
+    border-radius: 10px;
+}
+
+table { /* merapikan tabel */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+img { /* style gambar company */
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+td { /* style isi tabel */
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #000000;
+    color: white;
+    border: 1px solid rgb(0, 255, 72);
+}
+
+a { /* style link */
+    color: rgb(93, 255, 125);
+    text-decoration: none;
+    transition: 100s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer { /* bagian footer */
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
